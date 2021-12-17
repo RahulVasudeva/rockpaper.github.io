@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'header';
+    src: url('./roboto-v29-latin-700.woff2') format('woff2');
+}
+html {
+    font-size: 16px;
+    font-family: 'header';
+}
+body{
+    background-color: #5050b0;
+    color: #f3f3f3;
+}
+header{
+    text-align: center;
+    margin-bottom: 5rem;
+    
+}
+h1{
+    font-size: 5rem;
+    font-family: 'header';
+}
+section{
+    display:flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+article {
+    margin-left: 3rem;
+}
+h2 {
+    font-size: 3rem;
+}
+.rps {
+    height: 15rem;
+    width: 15rem;
+    margin:2rem;
+    border-radius: 50%;
+    padding: 2rem;
+    border: silver 0.45rem dashed;
+}
+.result{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button {
+    font-family: 'header';
+    background-color: aqua;
+}
