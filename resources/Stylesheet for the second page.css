@@ -23,7 +23,6 @@ section{
     display:flex;
     width: 90%;
     margin: 0 auto;
-    flex-wrap: wrap;
 }
 article {
     margin-left: 3rem;
