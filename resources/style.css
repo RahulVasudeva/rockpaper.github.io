@@ -22,7 +22,6 @@ section{
     
     width: 50%;
     margin: 0 auto;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .rps {
